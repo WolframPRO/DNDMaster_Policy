@@ -1,176 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — DND Master</title>
-    <style>
-        :root {
-            --bg: #0e0e12;
-            --card: #1a1a24;
-            --accent: #5e6ce7;
-            --accent-light: #7b88f0;
-            --text: #e8e8ed;
-            --text-secondary: #9a9ab0;
-            --border: rgba(255,255,255,0.08);
-            --radius: 16px;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .container {
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 60px 24px 80px;
-        }
-
-        h1 {
-            font-size: 36px;
-            font-weight: 700;
-            margin-bottom: 8px;
-            letter-spacing: -0.5px;
-        }
-
-        .last-updated {
-            color: var(--text-secondary);
-            font-size: 15px;
-            margin-bottom: 40px;
-        }
-
-        h2 {
-            font-size: 22px;
-            font-weight: 600;
-            margin-top: 40px;
-            margin-bottom: 12px;
-            color: var(--accent-light);
-        }
-
-        p, li {
-            font-size: 16px;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
-
-        ul {
-            padding-left: 24px;
-            margin-bottom: 16px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        a {
-            color: var(--accent-light);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .highlight-box {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 20px 24px;
-            margin: 24px 0;
-        }
-
-        .highlight-box p {
-            margin-bottom: 0;
-            color: var(--text);
-        }
-
-        footer {
-            text-align: center;
-            padding: 32px 24px;
-            border-top: 1px solid var(--border);
-            color: var(--text-secondary);
-            font-size: 14px;
-        }
-
-        @media (max-width: 600px) {
-            h1 { font-size: 28px; }
-            .container { padding: 40px 20px 60px; }
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-
-        <h1>Privacy Policy</h1>
-        <p class="last-updated">Last updated: March 18, 2026</p>
-
-        <p>DND Master ("the App") is developed by Vladimir Petrov ("Developer", "we", "us"). This Privacy Policy explains how the App handles your information.</p>
-
-        <div class="highlight-box">
-            <p><strong>In short:</strong> DND Master does not collect, store, or share any personal data. All your data stays on your device and in your private iCloud account.</p>
-        </div>
-
-        <h2>1. Information We Collect</h2>
-        <p>DND Master does <strong>not</strong> collect any personal information. The App does not require account creation, login, or any form of registration.</p>
-        <p>Specifically, the App does <strong>not</strong> collect:</p>
-        <ul>
-            <li>Names, email addresses, or contact information</li>
-            <li>Location data</li>
-            <li>Device identifiers or advertising IDs</li>
-            <li>Usage analytics or behavioral data</li>
-            <li>Crash reports (beyond what Apple collects through its own systems, if you have opted in)</li>
-        </ul>
-
-        <h2>2. Data Storage</h2>
-        <p>All data you create in the App — campaigns, characters, encounters, notes, custom NPCs, and preferences — is stored locally on your device using Apple's SwiftData framework.</p>
-        <p>If you have iCloud enabled on your device, your data is automatically synced to your private iCloud account via Apple CloudKit. This allows your data to be available across your Apple devices. This sync is handled entirely by Apple's infrastructure, and the Developer has no access to your iCloud data.</p>
-
-        <h2>3. Third-Party Services</h2>
-        <p>The App does <strong>not</strong> integrate any third-party analytics, advertising, crash reporting, or tracking services.</p>
-        <p>The App includes a built-in browser (iPad only) that can load web pages from dnd.su. When you use this feature, your interactions with those websites are governed by their respective privacy policies. The App does not track or record your browsing activity.</p>
-
-        <h2>4. iCloud</h2>
-        <p>The App uses Apple's iCloud services for data synchronization:</p>
-        <ul>
-            <li><strong>CloudKit</strong> — to sync your campaigns, characters, encounters, and other app data across devices</li>
-            <li><strong>Key-Value Storage (NSUbiquitousKeyValueStore)</strong> — to sync your app preferences</li>
-        </ul>
-        <p>Your iCloud data is protected by Apple's security and privacy measures. For more information, see <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
-
-        <h2>5. Data Sharing</h2>
-        <p>We do <strong>not</strong> sell, trade, rent, or otherwise share your data with any third parties. Since we do not collect any data, there is nothing to share.</p>
-
-        <h2>6. Children's Privacy</h2>
-        <p>The App does not knowingly collect any personal information from anyone, including children under the age of 13. Since the App collects no personal data, it is safe for users of all ages.</p>
-
-        <h2>7. Data Deletion</h2>
-        <p>Since all data is stored locally on your device and in your private iCloud account, you have full control over it:</p>
-        <ul>
-            <li>Delete individual items (campaigns, characters, etc.) directly within the App</li>
-            <li>Delete all App data by uninstalling the App from your device</li>
-            <li>Remove iCloud data through Settings &gt; [Your Name] &gt; iCloud &gt; Manage Storage</li>
-        </ul>
-
-        <h2>8. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated "Last updated" date. We encourage you to review this page periodically.</p>
-
-        <h2>9. Contact Us</h2>
-        <p>If you have any questions or concerns about this Privacy Policy or the App's data practices, please contact us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:mister.vladika@gmail.com">mister.vladika@gmail.com</a></p>
-
-    </div>
-
-    <footer>
-        <p>&copy; 2026 Vladimir Petrov. All rights reserved.</p>
-        <p style="margin-top: 8px;"><a href="marketing.html">Back to DND Master</a></p>
-    </footer>
-
-</body>
-</html>
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — DND Master</title><meta name="description" content="Как DND Master хранит игровые данные, использует iCloud, загружает библиотеки и модели и работает с локальным компаньоном.">
+<meta name="theme-color" content="#0c1417"><link rel="canonical" href="https://wolframpro.github.io/DNDMaster_Policy/privacy_policy.html">
+<link rel="alternate" hreflang="ru" href="https://wolframpro.github.io/DNDMaster_Policy/privacy_policy.html"><link rel="alternate" hreflang="en" href="https://wolframpro.github.io/DNDMaster_Policy/privacy_policy_en.html"><link rel="alternate" hreflang="x-default" href="https://wolframpro.github.io/DNDMaster_Policy/privacy_policy.html">
+<meta property="og:type" content="website"><meta property="og:title" content="Политика конфиденциальности — DND Master"><meta property="og:description" content="Как DND Master хранит игровые данные, использует iCloud, загружает библиотеки и модели и работает с локальным компаньоном.">
+<meta property="og:url" content="https://wolframpro.github.io/DNDMaster_Policy/privacy_policy.html"><meta property="og:image" content="https://wolframpro.github.io/DNDMaster_Policy/assets/share-icon.png"><meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary"><link rel="icon" href="assets/app-icon.png" type="image/png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><link rel="stylesheet" href="styles.css"></head><body><header class="header"><div class="wrap"><a class="brand" href="marketing.html"><img src="assets/app-icon.png" width="44" height="44" alt=""><strong>DND Master</strong></a><nav class="nav"><a class="section-nav" href="marketing.html#features">Возможности</a><a class="section-nav" href="marketing.html#music">Музыка</a><a class="section-nav" href="marketing.html#questions">Вопросы</a><a class="language" href="privacy_policy_en.html" lang="en">EN</a><a class="button small" href="https://apps.apple.com/ru/app/dnd-master/id6752643180">App Store ↗</a></nav></div></header><main class="wrap policy"><p class="eyebrow">DND Master</p><h1>Политика конфиденциальности</h1><p class="updated">Обновлено: 10 октября 2026 года</p>
+<p class="lead">Эта политика описывает работу DND Master и связанных страниц приложения. Пункты, отмеченные версией 3.1.0, относятся к предстоящему обновлению. Разработчик — Vladimir Petrov. По вопросам данных и конфиденциальности: <a href="mailto:mister.vladika@gmail.com">mister.vladika@gmail.com</a>.</p>
+<div class="key-facts"><p>Кампании и другие игровые записи хранятся на устройстве и могут синхронизироваться через ваш личный iCloud. Генерация ИИ выполняется локально. Загрузки, открытие внешних сайтов, обращение в поддержку и включённый вами компаньон создают отдельные соединения, описанные ниже.</p></div>
+<h2>1. Игровые данные и настройки</h2>
+<p>Приложение сохраняет созданные вами кампании, персонажей, заметки, энкаунтеры, собственных NPC и другие игровые записи в локальном хранилище устройства. Настройки и веб-закладки сохраняются локально. Импортированные аудиофайлы и плейлисты находятся в файловом хранилище приложения.</p>
+<p>Разработчик не получает содержимое этих записей автоматически. Приложение не содержит рекламных сетей и не использует это содержимое для рекламного отслеживания.</p>
+<h2>2. iCloud и резервные копии</h2>
+<p>Когда iCloud доступен и включён для приложения, игровые записи могут синхронизироваться через CloudKit в вашем личном iCloud. Они передаются Apple и регулируются настройками вашей учётной записи и <a href="https://www.apple.com/legal/privacy/">политикой конфиденциальности Apple</a>. Разработчик не получает доступ к вашей личной базе iCloud.</p>
+<p>Это не означает синхронизацию всех файлов приложения: музыка, загруженные модели и системные библиотеки управляются отдельно. Приложение также создаёт локальные резервные копии хранилища для восстановления. Системное резервное копирование устройства зависит от настроек iOS и iCloud.</p>
+<h2>3. Загрузка библиотек</h2>
+<p>Начиная с предстоящей версии 3.1.0, библиотеки игровых систем будут загружаться пакетами через инфраструктуру App Store. Для скачивания и обновления нужны интернет и свободное место. После установки материалы читаются локально. При соединении Apple получает технические сведения, необходимые для доставки файлов; содержимое ваших кампаний не требуется для загрузки библиотеки.</p>
+<h2>4. Локальный ИИ и модели</h2>
+<p>ИИ необязателен. Встроенный локальный движок использует модели, которые вы загружаете отдельно с Hugging Face и связанных серверов доставки. Во время скачивания сервис получает сетевые сведения, например IP-адрес и запрос к файлу, в соответствии с <a href="https://huggingface.co/privacy">политикой Hugging Face</a>. Некоторые модели могут требовать принятия условий сервиса и токена доступа.</p>
+<p>В предстоящей версии 3.1.0 введённый вами токен Hugging Face хранится в Keychain устройства без синхронизации iCloud и используется для доступа к загрузкам. Его можно удалить через настройки доступа к Hugging Face в приложении. Не публикуйте токен в переписке с поддержкой.</p>
+<p>При работе локальной модели запрос и переданные ей игровые данные обрабатываются на устройстве, а не отправляются облачному ИИ-провайдеру. Если на Mac вы выбираете интеграцию с Ollama, приложение обращается к локальному сервису на том же компьютере (<code>127.0.0.1</code>); сам сервис Ollama устанавливается и управляется отдельно.</p>
+<h2>5. Компаньон в локальной сети</h2>
+<p>Когда мастер запускает компаньон, приложение открывает локальный сервер на его устройстве. Подключённые игроки получают доступные им сведения кампании, персонажей, текущего боя и библиотеки, а их действия и броски передаются устройству мастера. Отдельный сервер разработчика для этой сессии не используется.</p>
+<p>Соединение работает через локальные HTTP и WebSocket. Используйте доверенную Wi-Fi сеть и передавайте ссылку или QR-код только участникам игры. Мастер может отключать участников и останавливать сессию. Копии уже показанных игрокам данных, снимки экрана и сохранённые ими файлы не могут быть отозваны приложением.</p>
+<h2>6. Внешние сайты, импорт и экспорт</h2>
+<p>При открытии сайта во встроенном или системном браузере либо импорте NPC по ссылке устройство соединяется с выбранным сайтом. Сайт может обрабатывать IP-адрес, cookies, данные входа и другие сведения по своей политике. Встроенный браузер может сохранять данные сайтов; он не является режимом приватного просмотра.</p>
+<p>Экспортируя кампанию, персонажа или другой файл, вы выбираете получателя и способ передачи. Содержимое файла становится доступно выбранному приложению, облачному хранилищу или получателю. Эти передачи не управляются разработчиком DND Master.</p>
+<h2>7. Поддержка и этот сайт</h2>
+<p>Если вы пишете разработчику по электронной почте или в <a href="https://t.me/dnd_master_community">Telegram</a>, выбранный сервис и адресат получают сообщение и приложенные вами материалы. В группе Telegram сообщения могут видеть другие участники. Для личных вопросов о данных используйте электронную почту и не отправляйте больше сведений, чем нужно для решения вопроса.</p>
+<p>На этих страницах нет встроенных рекламных или аналитических скриптов, форм сбора данных и внешних шрифтов. Страницы и изображения обслуживает GitHub Pages; хостинг может обрабатывать технические сведения о посещении по <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">политике GitHub</a>. Переходы в App Store, Telegram и на другие сайты регулируются политиками соответствующих сервисов.</p>
+<h2>8. Удаление и управление данными</h2>
+<p>Игровые записи, загруженные библиотеки, модели и резервные копии удаляются через соответствующие разделы приложения. Синхронизируемые изменения могут распространяться на ваши другие устройства. Управлять данными iCloud и разрешениями приложения можно в системных настройках Apple.</p>
+<p>Удаление приложения удаляет его локальное файловое хранилище, но не гарантирует удаления копий в iCloud, системных резервных копий, экспортированных файлов, ранее отправленных сообщений или записей Keychain. Токен Hugging Face можно удалить в приложении и отозвать в своей учётной записи Hugging Face. Копиями у получателей и в сторонних сервисах нужно управлять отдельно.</p>
+<h2>9. Изменения политики</h2>
+<p>При изменении функций или способов обработки данных эта страница обновляется вместе с датой вверху. Возрастные ограничения приложения указаны в его карточке App Store.</p>
+<nav class="policy-nav"><a href="marketing.html">← О приложении</a><a href="privacy_policy_en.html">EN</a></nav></main><footer class="footer"><div class="wrap"><div class="footer-grid"><span>© 2026 Vladimir Petrov</span><div class="footer-links"><a href="privacy_policy.html">Конфиденциальность</a><a href="https://t.me/dnd_master_community">Telegram ↗</a><a href="mailto:mister.vladika@gmail.com">Написать разработчику</a></div></div><p class="legal-note">DND Master — независимый помощник мастера. Dungeons & Dragons и D&D — товарные знаки их правообладателей. Приложение не является официальным продуктом Wizards of the Coast.</p></div></footer></body></html>
